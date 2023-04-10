@@ -94,3 +94,37 @@ while True:
         quit()
     else:
         print("Invalid input. Please enter Y, N or Q.")
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+      if game_mode == 1:
+    can_play_obstacle = True
+    can_ask_opponent_to_leave = True
+elif game_mode == 2:
+    can_play_obstacle = False
+    can_ask_opponent_to_leave = False
+
+# Assuming some conditions to check for can_fly and can_stay
+if player_has_enough_fuel() and not player_is_at_maximum_altitude():
+    can_fly = True
+else:
+    can_fly = False
+
+if player_is_on_airport() and not player_has_used_all_turns():
+    can_stay = True
+else:
+    can_stay = False
+  
+        
